@@ -1,0 +1,152 @@
+*{
+    box-sizing:border-box;
+    font-family:'Bebas Neue'
+}
+
+body > header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    text-align: center;
+    background-color:#66758A;
+    background-image: url(bgimage.jfif);
+    background-image: no-repeat;
+    height: 40%;
+    border:1px solid black;
+}
+
+section h1{
+position:fixed;
+top:50px;
+left:50px;
+font-weight:lighter;
+font-size: 80px;
+color:white;
+letter-spacing:2px;
+float:left;
+text-align:center;
+width:100%;
+}
+
+ul{
+    float:left;
+    width:100vw;
+    /* border:1px solid black; */
+}
+
+ul li{
+    display:inline;
+}
+
+form > img{
+margin: 0 0%;
+}
+
+.floatme{
+    float:left;
+    width:33.3333%;
+    /* border:1px solid black; */
+    padding-right:24%;
+    letter-spacing:1px;
+}
+
+.separme{
+    margin-left:4%;
+}
+
+.pushme{
+    padding-left:10%;
+}
+
+.imglogo{
+    float:left;
+/*    border:1px solid black; */
+    margin-left:17.2%;
+}
+
+.playbuttonlogo{
+    top:43%;
+    left:-1%;
+    float:left;
+    /* border:1px solid black; */
+    margin-left:50%;
+}
+
+.donatebtn{
+    color:#66758A;
+    border-radius:5px;
+    width:2%;
+    float:right;
+    margin-right:5%
+}
+
+.pheader{
+    text-align:center;
+    float:left;
+    width:24vw;
+    color:white;
+    margin:38%;
+    margin-top:7%;
+    font-weight:lighter;
+}
+section:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.lineup{
+    display:inline;
+    color:white;
+    font-size:20px;
+    float:left;
+    position:fixed;
+    top:33%;
+    left:48%;
+    margin-left:0.1%;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+h2{
+    color:black;
+    position:fixed;
+    text-align: center;
+    float:left;
+    bottom:47%;
+    right:50%;
+}
+
+.upmidsec{
+    height:100vh;
+    border:1px solid black;
+}
+
+.playbuttonimg{
+    position:fixed;
+    right:52.2%;
+    top: 34.7%;
+}
+
+.desctext{
+    text-align:center;
+    position:fixed;
+    top: 50%;
+    right:40.5%;
+    width:21vw;
+}
+
+.lowmidsec{
+    border:1px solid black;
+}
+
+.twoboxesonesec{
+    color:#DBDFE2;
+}
